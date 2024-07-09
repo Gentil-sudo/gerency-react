@@ -1,0 +1,101 @@
+.container {
+  background-color: rgb(215, 226, 215);
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  height: 450px;
+}
+
+.card-salary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 480px;
+  height: 70px;
+  margin-top: 15px;
+  border-bottom: 2px solid black;
+}
+
+.h1-salary {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 8px;
+  margin-left: 30px;
+  margin-right: 9px;
+  text-shadow: 1px 1px 3px rgb(102, 101, 101);
+}
+
+.input-salary {
+  margin-top: 8px;
+  height: 25px;
+  width: 240px;
+  font-weight: bolder;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.spend {
+  display: flex;
+  width: 480px;
+  height: 200px;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.spend-h2 {
+  margin-left: 20px;
+  margin-top: -1px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 3px rgb(102, 101, 101);
+}
+
+.spend-input {
+  margin-right: 10px;
+  width: 235px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 480px;
+  height: 300px;
+}
+
+.select-label {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.select {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.calc-btn {
+  height: 35px;
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color:white;
+  cursor: pointer;
+  color: black;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+.h3-calc{
+  color: red;
+}

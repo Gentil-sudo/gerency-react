@@ -1,0 +1,35 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    background: transparent;
+}
+
+.select-btn {
+    height: 35px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color:white;
+    cursor: pointer;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.select-btn:hover {
+    opacity: 0.9;
+}
+
+.home-body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
